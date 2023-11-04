@@ -1,0 +1,325 @@
+body {
+    background-color: #A9C6D3;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    top: 80px;
+    gap: 30px;
+}
+
+.item {
+    background-color: #60808E;
+    width: 212px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.Routines {
+    width: 212px;
+    background-color: #60808E;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.routinesButton {
+    position: absolute;
+    right: 35px;
+}
+
+.Routines-nav {
+    display: flex;
+    justify-content: center;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    background-color: #60808E;
+}
+
+.Routines-nav.isActive {
+    height: auto;
+    opacity: 1;
+}
+
+.Routines-ul {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0;
+    margin-top: 0;
+}
+
+.Routines-li {
+    margin: 6px;
+    list-style: none;
+}
+
+.Routines-a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.Exercises {
+    width: 212px;
+    background-color: #60808E;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.exercisesButton {
+    position: absolute;
+    right: 35px;
+}
+
+.Exercises-nav {
+    display: flex;
+    justify-content: center;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    background-color: #60808E;
+}
+
+.Exercises-nav.isActive {
+    height: 20em;
+    opacity: 1;
+}
+
+/* Group PUSH */
+.ExercisesPushMuscleGroup {
+    width: 212px;
+    height: 0 auto;
+    position: relative;
+    left: -12px;
+}
+
+.exercisesPushMuscles {
+    display: flex;
+    position: absolute;
+    left: 10px;
+    font-size: 12px;
+}
+
+.ExercisesPush-ul {
+    margin: 6px;
+    list-style: none;
+}
+
+.ExercisesPush-li {
+    margin: 6px;
+    list-style: none;
+}
+
+.ExercisesPush-a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+/* Group PULL */
+.ExercisesPullMuscleGroup {
+    width: 212px;
+    top: 40px;
+    position: relative;
+    left: -12px;
+}
+
+.exercisesPullMuscles {
+    display: flex;
+    width: 212px;
+    font-size: 12px;
+}
+
+.exercisesPullMusclesLeft {
+    position: absolute;
+    left: 16px;
+}
+
+.exercisesPullMusclesRight {
+    position: absolute;
+    right: -5px;
+}
+
+
+.ExercisesPull-ul {
+    margin: 6px;
+    list-style: none;
+}
+
+.ExercisesPull-li {
+    margin: 6px;
+    list-style: none;
+}
+
+.ExercisesPull-a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+/* Group LEG */
+.ExercisesLegMuscleGroup {
+    width: 212px;
+    top: 70px;
+    position: relative;
+    left: -16px;
+}
+
+.exercisesLegMuscles {
+    display: flex;
+    font-size: 12px;
+}
+
+.exercisesLegMusclesLeft {
+    left: 14px;
+    position: absolute;
+}
+
+.exercisesLegMusclesRight {
+    right: -13px;
+    position: absolute;
+}
+
+.exercisesLegMusclesBottom {
+    top: 70px;
+    right: 56px;
+    position: absolute;
+}
+
+.ExercisesLeg-ul {
+    margin: 6px;
+    list-style: none;
+}
+
+.ExercisesLeg-li {
+    margin: 6px;
+    list-style: none;
+}
+
+.ExercisesLeg-a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+/* Group CORE */
+.ExercisesCoreMuscleGroup {
+    width: 212px;
+    top: 155px;
+    position: relative;
+    left: -16px;
+}
+
+.exercisesCoreMuscles {
+    display: flex;
+    font-size: 12px;
+}
+
+.exercisesCoreMusclesLeft {
+    position: absolute;
+    left: 22px;
+}
+
+.exercisesCoreMusclesRight {
+    position: absolute;
+    right: 8px;
+}
+
+.ExercisesCore-ul {
+    margin: 6px;
+    list-style: none;
+}
+
+.ExercisesCore-li {
+    margin: 6px;
+    list-style: none;
+}
+
+.ExercisesCore-a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.Supplementation {
+    width: 212px;
+    background-color: #60808E;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.supplementationButton {
+    position: absolute;
+    right: 7px;
+}
+
+.Supplementation-nav {
+    display: flex;
+    margin-top: -30px;
+    width: 212px;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    background-color: #60808E;
+}
+
+.Supplementation-nav.isActive {
+    height: auto;
+    opacity: 1;
+}
+
+.Supplementation-ul {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.Supplementation-li {
+    margin: 6px;
+    list-style: none;
+}
+
+.Supplementation-a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.supplementationGroup{
+    position: relative;
+    height: 5em;
+    top: -10px;
+}
+
+.supplementationLeft{
+    position: absolute;
+    left: 6px;
+}
+
+.supplementationRight{
+    position: absolute;
+    left: 100px;
+}

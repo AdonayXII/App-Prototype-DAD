@@ -1,0 +1,11 @@
+.container-header {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 3px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
