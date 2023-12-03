@@ -1,0 +1,10 @@
+.container-header {
+    display: flex;
+    justify-content: end;
+    width: 25.7em;
+    
+}
+
+.homeIcon{
+    font-size: 40px;
+}
